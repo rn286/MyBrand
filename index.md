@@ -1,12 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to Rich's Web Devlopement Brand Page
 
-You can use the [editor on GitHub](https://github.com/rn286/MyBrand/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is where I will highlight some of my new web development skills.
+### PHP & HTML
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I'm starting out knowing very little about coding.
 
 ```markdown
 Syntax highlighted code block
