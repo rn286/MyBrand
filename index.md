@@ -17,11 +17,14 @@ Syntax highlighted code block
 
 1. Numbered
 2. List
+3. More lists
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
+
+**I'm starting to understand _bold_** <br>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
