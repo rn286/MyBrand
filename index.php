@@ -1,8 +1,9 @@
 <?php
 
   $obj = new main();
-  $text = "my text";
-  $obj->printthis($text);
+  $FirstName = "Rich";
+  $LastName = "Nunziante";
+  $obj->printthis($FirstName,$LastName);
   
   $array = array(1,2,3,4,5,6,7);
   $obj->printArray($array);
@@ -11,13 +12,16 @@
 
     public function __construct() {
 
-      echo 'hello i\'m an Object </br>';
+      echo '<H1>Homework Assignment for Strings and Arrays</H1>';
+      echo '10 String Functions </br>';
+      echo <hr>;
 
     }
 
-    public function printthis($text) {
-      echo '<h1>print function demo </h1>';
-      print($text);
+    public function printthis($FirstName,$LastName) {
+      $FullName='$FirstName $LastName';
+      echo '<h2>Print Function </h2>';
+      print($FullName);
       echo '<hr>';
     }
 
