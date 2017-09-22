@@ -17,7 +17,9 @@
 
     public function printthis($Name) {
       echo '<h2>print function and String Functions</h2>';
-      print($FirstName . ' ' .@LastName);
+      print($FirstName)<br>;
+      print($LastName)<br>;
+      echo($FirstName $LastName);
       echo '<hr>';
     }
 
