@@ -6,10 +6,7 @@
   $PhoneNumber = "5551212"
   $obj->printthis($Name);
   
-  $array = array(1,2,3,4,5,6,7);
-  $obj->printArray($array);
-
-  class main {
+    class main {
 
     public function __construct() {
 
@@ -24,15 +21,9 @@
       echo '<hr>';
     }
 
-    public function printArray($array) {
-      echo '<h1>array print function</h1>';
-      print_r($array);
-      echo '<hr>';
-    }
-    
     public function __destruct() {
 
-      echo '</br> I\'m Done';
+      echo '</br> Assignement Completed';
 
     }
 
