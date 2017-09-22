@@ -3,8 +3,11 @@
   $obj = new main();
   $FirstName = "Rich";
   $LastName = "Nunziante";
+  //$FullName = ($FirstName $LastName);
+
+
   $obj->printthis($FirstName,$LastName);
-  
+
   $array = array(1,2,3,4,5,6,7);
   $obj->printArray($array);
 
@@ -13,15 +16,24 @@
     public function __construct() {
 
       echo '<H1>Homework Assignment for Strings and Arrays</H1>';
-      echo '10 String Functions </br>';
-      echo <hr>;
+      echo '<h3>10 String Functions</h3>';
+      echo '<hr>';
 
     }
 
+
     public function printthis($FirstName,$LastName) {
-      $FullName='$FirstName $LastName';
+
       echo '<h2>Print Function </h2>';
-      print($FullName);
+      print $FirstName .' '. $LastName .'<br>';   
+      echo '<h2> String Manipulation Functions </h2>';
+      echo strtoupper ($FirstName).'<br>';
+      echo strlen($FirstName).'<br>';
+      echo substr_replace ($LastName, 'Mr.', 0, 0) . '<br>'; 
+
+
+
+
       echo '<hr>';
     }
 
