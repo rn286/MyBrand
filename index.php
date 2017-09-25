@@ -72,7 +72,7 @@
       print_r($array);
       echo '<hr>';
 
-//The below doesn't work yet - wrong function
+// The below doesn't work yet - wrong function
 //    echo '<h2>(2) Array Functions:Index </h2>';
 //    echo "The most common cars on the road are: " . $arrayCar[0] .;
       
